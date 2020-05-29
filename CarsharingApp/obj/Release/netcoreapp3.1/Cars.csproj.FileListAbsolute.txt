@@ -1,0 +1,3 @@
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Release\netcoreapp3.1\Cars.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Release\netcoreapp3.1\Cars.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Release\netcoreapp3.1\Cars.csproj.CoreCompileInputs.cache

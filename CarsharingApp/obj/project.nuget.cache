@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "v8UM5tvkxmbE/9TIWg7J6w4YqBFEIVrlBsMl+UmntwlJqf3cTE1jOsjy5+GaEcAzuJDVfUXF4mXwt5lKln8gjg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alexander\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Alexander\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

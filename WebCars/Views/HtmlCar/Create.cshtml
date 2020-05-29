@@ -1,0 +1,35 @@
+﻿@model Cars.Entities.Car
+
+@{
+    ViewData["Title"] = "Создание новой книги";
+}
+
+<h1>Создание новой книги</h1>
+
+<h4>Книга</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">           
+            <div class="form-group">
+                <label>Название</label>
+                <input asp-for="Type" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Страниц</label>
+                <input asp-for="Model" class="form-control" />                
+            </div>           
+            <div class="form-group">
+                <p>Тут поидее выбор автора, но мы упростим - введем id</p>
+                <label>CarId</label>
+                <input asp-for="Make" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Создать" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Вернуться к списку</a>
+</div>

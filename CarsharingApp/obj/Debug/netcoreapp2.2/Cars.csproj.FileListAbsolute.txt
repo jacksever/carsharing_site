@@ -1,0 +1,9 @@
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp2.2\Cars.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp2.2\Cars.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp2.2\Cars.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\bin\Debug\netcoreapp2.2\Cars.deps.json
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\bin\Debug\netcoreapp2.2\Cars.dll
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\bin\Debug\netcoreapp2.2\Cars.pdb
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp2.2\Cars.dll
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp2.2\Cars.pdb
+C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp2.2\Cars.csprojAssemblyReference.cache

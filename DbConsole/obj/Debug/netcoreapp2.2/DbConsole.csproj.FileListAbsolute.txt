@@ -1,0 +1,17 @@
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Debug\netcoreapp2.2\DbConsole.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Debug\netcoreapp2.2\DbConsole.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Debug\netcoreapp2.2\DbConsole.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Debug\netcoreapp2.2\DbConsole.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\DbConsole.deps.json
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\DbConsole.runtimeconfig.json
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\DbConsole.runtimeconfig.dev.json
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\DbConsole.dll
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\DbConsole.pdb
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\Cars.dll
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\Infrastructure.dll
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\Cars.pdb
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\bin\Debug\netcoreapp2.2\Infrastructure.pdb
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Debug\netcoreapp2.2\DbConsole.csproj.CopyComplete
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Debug\netcoreapp2.2\DbConsole.dll
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Debug\netcoreapp2.2\DbConsole.pdb
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Debug\netcoreapp2.2\DbConsole.genruntimeconfig.cache

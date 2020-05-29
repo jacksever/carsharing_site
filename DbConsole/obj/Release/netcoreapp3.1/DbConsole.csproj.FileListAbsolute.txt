@@ -1,0 +1,3 @@
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Release\netcoreapp3.1\DbConsole.AssemblyInfoInputs.cache
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Release\netcoreapp3.1\DbConsole.AssemblyInfo.cs
+C:\Users\Alexander\source\repos\CarsharingApp\DbConsole\obj\Release\netcoreapp3.1\DbConsole.csproj.CoreCompileInputs.cache
