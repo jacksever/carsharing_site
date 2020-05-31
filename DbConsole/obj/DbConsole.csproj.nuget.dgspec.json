@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\DbConsole\\DbConsole.csproj": {}
+    "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\DbConsole\\DbConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj": {
+    "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj",
         "projectName": "Cars",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\obj\\",
+        "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +41,28 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -64,6 +89,9 @@
             }
           ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -72,17 +100,20 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\DbConsole\\DbConsole.csproj": {
+    "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\DbConsole\\DbConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\DbConsole\\DbConsole.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\DbConsole\\DbConsole.csproj",
         "projectName": "DbConsole",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\DbConsole\\DbConsole.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\DbConsole\\obj\\",
+        "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\DbConsole\\DbConsole.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\DbConsole\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,11 +126,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj"
+              "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj": {
+                "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj"
               },
-              "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -113,6 +144,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -149,6 +184,9 @@
             }
           ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -157,17 +195,20 @@
         }
       }
     },
-    "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -180,8 +221,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj": {
-                "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj"
+              "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj": {
+                "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj"
               }
             }
           }
@@ -195,6 +236,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.4, )"
@@ -231,6 +276,9 @@
             }
           ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

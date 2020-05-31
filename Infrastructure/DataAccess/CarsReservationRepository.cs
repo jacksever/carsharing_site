@@ -1,12 +1,11 @@
-﻿using System;
-using CarsReservation.Entities;
+﻿using Cars.Entities;
 
 namespace Infrastructure.DataAccess
 {
-	public class CarReservationRepository
+	public class CarReservationRepository : AuditableRepository<CarsReservation>
 	{
 		private readonly AppDbContext _dbContext;
-		public CarReservationRepository(AddDbContext dbContext) : base (dbContext)
+		public CarReservationRepository(AppDbContext dbContext) : base (dbContext)
 		{
 			_dbContext = dbContext;
 		}

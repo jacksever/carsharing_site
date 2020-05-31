@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using CarsReservation.Entities;
+﻿using Cars.Entities;
+using Infrastructure.DataAccess.CRUDInterfaces;
 
 namespace Infrastructure.DataAccess
 {

@@ -1,8 +1,6 @@
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.csprojAssemblyReference.cache
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.AssemblyInfoInputs.cache
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.AssemblyInfo.cs
-C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.csproj.CoreCompileInputs.cache
-C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -144,3 +142,6 @@ C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\We
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\Razor\Views\HtmlCar\Create.cshtml.g.cs
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\Razor\Views\HtmlCar\Edit.cshtml.g.cs
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\Razor\Views\HtmlCar\Index.cshtml.g.cs
+C:\Users\Alexander\source\repos\CarsharingApp\WebCars\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.MvcApplicationPartsAssemblyInfo.cache

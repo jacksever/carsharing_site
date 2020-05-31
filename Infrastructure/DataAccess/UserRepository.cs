@@ -1,14 +1,15 @@
-﻿using System;
+﻿using Cars.Entities;
+using Infrastructure.DataAccess;
+using System;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using User.Entities;
+using System.Linq;
 
 namespace InInfrastructure.DataAccess
 {
     public class UserRepository : AuditableRepository<User>, IUserRepository
     {
         private readonly AppDbContext _dbContext;
-        public UserRepository (AddDbContext dbContext) : base (dbContext)
+        public UserRepository (AppDbContext dbContext) : base (dbContext)
         {
             _dbContext = dbContext;
         }
@@ -18,5 +19,9 @@ namespace InInfrastructure.DataAccess
             return _dbContext.User.Where(x => x.LastName.ToLower().Contains(name.ToLower())).ToList();
         }
 
-    }
+		IReadOnlyList<User> IUserRepository.GetUserByLastName(string lastName)
+		{
+			throw new NotImplementedException();
+		}
+	}
 }
