@@ -15,6 +15,7 @@ namespace Cars.Entities
 	{
 		public string FirstName { get; set; }
 		public string LastName { get; set; }
+		public string Patronymic {get; set;}
 		public int Age { get; set; }
 		public string Gender { get; set; }
 		public string Email { get; set; }
@@ -24,10 +25,11 @@ namespace Cars.Entities
 
 		}
 
-		public User(string firstName, string lastName, int age, string gender, string email)
+		public User(string firstName, string lastName, string patronymic, int age, string gender, string email)
 		{
 			FirstName = firstName;
 			LastName = lastName;
+			Patronymic = patronymic;
 			Age = age;
 			Gender = gender;
 			Email = email;

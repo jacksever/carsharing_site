@@ -8,7 +8,7 @@ namespace Infrastructure.DataAccess
 {
 	public interface ICarsRepository : ICanAddEntity<Car>, ICanUpdateEntity<Car>, ICanGetEntity<Car>
 	{
-		IReadOnlyList<Car> GetAuthorByLastName(string name);
+		IReadOnlyList<Car> GetManufacturerByLastName(string name);
 		IReadOnlyList<Car> GetAll();
 		Car Get(int id);
 		void Add(Car car);

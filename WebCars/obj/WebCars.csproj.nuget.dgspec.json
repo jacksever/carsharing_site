@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\WebCars\\WebCars.csproj": {}
+    "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\WebCars\\WebCars.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj": {
+    "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj",
         "projectName": "Cars",
-        "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -75,20 +72,17 @@
         }
       }
     },
-    "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,8 +95,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj": {
-                "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\CarsharingApp\\Cars.csproj"
+              "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\CarsharingApp\\Cars.csproj"
               }
             }
           }
@@ -160,20 +154,17 @@
         }
       }
     },
-    "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\WebCars\\WebCars.csproj": {
+    "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\WebCars\\WebCars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\WebCars\\WebCars.csproj",
+        "projectUniqueName": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\WebCars\\WebCars.csproj",
         "projectName": "WebCars",
-        "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\WebCars\\WebCars.csproj",
-        "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\WebCars\\obj\\",
+        "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\WebCars\\WebCars.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\WebCars\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -186,8 +177,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Asus\\Desktop\\project\\carsharing_site\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

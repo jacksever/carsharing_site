@@ -20,7 +20,7 @@ namespace Infrastructure.DataAccess
             return _dbContext.Car.Include(b => b.Id).ToList();
         }
 
-		public IReadOnlyList<Car> GetAuthorByLastName(string name)
+		public IReadOnlyList<Car> GetManufacturerByLastName(string name)
         {
             return _dbContext.Car.Where(x => x.Make.ToLower().Contains(name.ToLower())).ToList();
         }
