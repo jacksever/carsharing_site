@@ -1,5 +1,6 @@
 ﻿using Cars.Entities;
 using Infrastructure.DataAccess.CRUDInterfaces;
+using System.Collections.Generic;
 
 namespace Infrastructure.DataAccess
 {
@@ -8,5 +9,7 @@ namespace Infrastructure.DataAccess
 		CarsReservation Get(int id);
 		void Add(CarsReservation carsReservation);
 		void Update(CarsReservation carsReservation);
+
+		IReadOnlyList<CarsReservation> GetAll();
 	}
 }

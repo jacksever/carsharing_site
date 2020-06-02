@@ -7,6 +7,8 @@ namespace Infrastructure.DataAccess
     public interface IUserRepository : ICanAddEntity<User>, ICanDeleteEntity<User>, ICanGetEntity<User>, ICanUpdateEntity<User>
     {
         IReadOnlyList<User> GetUserByLastName(string lastName);
+        IReadOnlyList<User> GetAll();
+        User Get(int id);
     }
 
 }

@@ -14,6 +14,11 @@ namespace InInfrastructure.DataAccess
             _dbContext = dbContext;
         }
 
+        public IReadOnlyList<User> GetAll()
+        {
+            return _dbContext.User.ToList();
+        }
+
         public IReadOnlyList <User> GetUserByLastName(string name)
         {
             return _dbContext.User.Where(x => x.LastName.ToLower().Contains(name.ToLower())).ToList();

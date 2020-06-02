@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Infrastructure.DataAccess;
+using InInfrastructure.DataAccess;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +32,8 @@ namespace WebCars
             services.AddControllersWithViews();
 
             services.AddScoped<ICarsRepository, CarsRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICarsReservationRepository, CarsReservationRepository>();
 
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MsSqlConnection")));

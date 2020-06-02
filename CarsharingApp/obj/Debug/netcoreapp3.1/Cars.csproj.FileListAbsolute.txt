@@ -5,7 +5,6 @@ C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\bin\Debug\netcoreapp
 C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\bin\Debug\netcoreapp3.1\Cars.pdb
 C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp3.1\Cars.dll
 C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp3.1\Cars.pdb
-C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp3.1\Cars.csprojAssemblyReference.cache
 C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.json
 C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.dev.json
 C:\Users\Alexander\source\repos\CarsharingApp\CarsharingApp\obj\Debug\netcoreapp3.1\Cars.genruntimeconfig.cache
