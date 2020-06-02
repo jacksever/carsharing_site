@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9V9F3vuf8i15MJedFxaAtsdUmMF+5GhQZ3wRgnvkRWPBjVxGCbb1IjYqYKWh186qGGC5SpGgecSLbXt8qOMZcg==",
+  "dgSpecHash": "fAFa3/USPUJ55HmcDpvLiGpdHKLHLyWZlKLscpQ2PTlHqR0XuZbOw6jX7iMw88AcNWoE9iChiRNh8G3k2m7dJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\CarsharingApp\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Alexander\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",

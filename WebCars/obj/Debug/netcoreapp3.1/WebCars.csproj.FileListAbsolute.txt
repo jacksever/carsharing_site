@@ -145,3 +145,4 @@ C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\Ra
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.csproj.CoreCompileInputs.cache
 C:\Users\Alexander\source\repos\CarsharingApp\WebCars\obj\Debug\netcoreapp3.1\WebCars.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Alexander\source\repos\CarsharingApp\WebCars\bin\Debug\netcoreapp3.1\package-lock.json

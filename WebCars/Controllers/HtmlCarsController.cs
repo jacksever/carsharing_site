@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Cars.Entities;
+﻿using Cars.Entities;
 using Infrastructure.DataAccess;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebCars.Controllers
 {
     [Route("html/[controller]")]
-    public class HtmlBookController : Controller
+    public class HtmlCarsController : Controller
     {
         private ICarsRepository _carsRepository { get; set; }
 
-        public HtmlBookController(ICarsRepository carsRepository)
+        public HtmlCarsController(ICarsRepository carsRepository)
         {
             _carsRepository = carsRepository;
         }

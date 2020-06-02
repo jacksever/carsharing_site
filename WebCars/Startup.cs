@@ -30,9 +30,6 @@ namespace WebCars
             services.AddControllers().AddNewtonsoftJson();
             services.AddControllersWithViews();
 
-
-
-
             services.AddScoped<ICarsRepository, CarsRepository>();
 
             services.AddDbContext<AppDbContext>(options =>

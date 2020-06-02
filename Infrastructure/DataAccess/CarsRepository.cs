@@ -17,7 +17,7 @@ namespace Infrastructure.DataAccess
 
 		public IReadOnlyList<Car> GetAll()
 		{
-            return _dbContext.Car.Include(b => b.Id).ToList();
+            return _dbContext.Car.ToList();
         }
 
 		public IReadOnlyList<Car> GetManufacturerByLastName(string name)
