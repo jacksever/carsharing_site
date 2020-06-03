@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Cars.Entities.CarsReservation>
+
+@{
+	ViewData["Title"] = "Главная - список арендованных автомобилей";
+}
+
+
+	<h1>Список арендованных автомобилей</h1>
+
+<p>
+	<a asp-action="Create">Взять автомобиль в аренду</a>
+</p>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				Автомобиль
+			</th>
+			<th>
+				Конечный пункт
+			</th>
+			<th>
+				Дистанция
+			</th>
+			<th>
+				Оплата
+			</th>
+			<th>
+				Пользователь
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.Car.Id)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Destination)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Distance)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Pay)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.User.Id)
+			</td>
+		</tr>
+		}
+	</tbody>
+</table>

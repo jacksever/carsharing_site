@@ -40,7 +40,7 @@ namespace DbConsole
 
             Car cars = new Car("Passenger", "Mercedes-benz", "E320", "Free");
             _carsRepository.Add(cars);
-            User user = new User("Anni", "Ritter", "-", 19, "Female", "anni-ritter@yandex.ru");
+            User user = new User("Anni", "Ritter", "-", 19, "anni-ritter@yandex.ru");
             _userRepository.Add(user);
             CarsReservation carsReservation = new CarsReservation(cars.Id, "Moscow-City", "12.5 km", "560", user.Id);
             _carsReservationRepository.Add(carsReservation);

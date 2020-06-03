@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Cars.Entities.Car>
+
+@{
+	ViewData["Title"] = "Главная - список автомобилей";
+}
+
+
+<h1>Список машин</h1>
+
+<p>
+	<a asp-action="Create">Создать новый автомобиль</a>
+</p>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				Тип авто
+			</th>
+			<th>
+				Производитель
+			</th>
+			<th>
+				Марка
+			</th>
+			<th>
+				Модель
+			</th>
+			<th>
+				Состояние
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.Type)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Make)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Model)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.State)
+			</td>
+			<td>
+				<a asp-action="Edit" asp-route-id="@item.Id">Обновить</a>
+			</td>
+		</tr>
+		}
+	</tbody>
+</table>

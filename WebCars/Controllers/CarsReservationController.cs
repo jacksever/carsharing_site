@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebCars.Controllers
 {
-    [Route("cars-reservation-list")]
+    [Route("api /[controller]")]
     [ApiController]
     public class CarsReservationController : ControllerBase
     {

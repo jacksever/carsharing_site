@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "user-list",
+      "launchUrl": "html/htmlUsers",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,7 +20,7 @@
     "Carsharing": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "user-list",
+      "launchUrl": "html/htmlUsers",
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
