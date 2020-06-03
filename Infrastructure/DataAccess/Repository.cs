@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace Infrastructure.DataAccess
 {
     public abstract class Repository<TEntity> where TEntity : class

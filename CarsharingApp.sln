@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbConsole", "DbConsole\DbCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{74B2A273-FB4B-4E4E-9647-E6B0F9E2926D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCars", "WebCars\WebCars.csproj", "{38B6F9CE-3171-43DE-BD8D-A0DD0437E426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCars", "WebCars\WebCars.csproj", "{38B6F9CE-3171-43DE-BD8D-A0DD0437E426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

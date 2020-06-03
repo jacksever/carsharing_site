@@ -1,7 +1,7 @@
 ﻿
 namespace Cars.Entities
 {
-	enum Roles
+	public enum Roles
 	{
 		Admin = 1,
 		User = 2,
@@ -16,6 +16,7 @@ namespace Cars.Entities
 		public int Age { get; set; }
 		public string Gender { get; set; }
 		public string Email { get; set; }
+		public Roles Roles { get; set; }
 
 		public User()
 		{
@@ -30,6 +31,7 @@ namespace Cars.Entities
 			Age = age;
 			Gender = gender;
 			Email = email;
+			Roles = Roles.User;
 		}
 
 	}

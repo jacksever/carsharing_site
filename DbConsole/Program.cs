@@ -23,23 +23,27 @@ namespace DbConsole
     {
         private static readonly AppDbContext _appContext;
         private static ICarsRepository _carsRepository;
-        private static IUserRepository _userRepository;
+		private static IUserRepository _userRepository;
+        private static ICarsReservationRepository _carsReservationRepository;
         static Program()
         {
             AppDbContextFactory factory = new AppDbContextFactory();
             _appContext = factory.CreateDbContext(null);
             _carsRepository = new CarsRepository(_appContext);
             _userRepository = new UserRepository(_appContext);
+            _carsReservationRepository = new CarsReservationRepository(_appContext);
         }
 
         static void Main(string[] args)
         {
             Console.WriteLine("Start!");
 
-            Car cars = new Car("Passenger", "Ford", "Focus", "Free");
+            Car cars = new Car("Passenger", "Mercedes-benz", "E320", "Free");
             _carsRepository.Add(cars);
-            User user = new User("Jack", "Sever", "-", 19, "Male", "jack.sever@yandex.ru");
+            User user = new User("Anni", "Ritter", "-", 19, "Female", "anni-ritter@yandex.ru");
             _userRepository.Add(user);
+            CarsReservation carsReservation = new CarsReservation(cars.Id, "Moscow-City", "12.5 km", "560", user.Id);
+            _carsReservationRepository.Add(carsReservation);
         }
     }
 }
